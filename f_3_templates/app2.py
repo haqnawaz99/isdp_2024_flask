@@ -4,7 +4,7 @@ app = Flask(__name__, template_folder='templates')
 
 @app.route('/')
 def index():
-    myvalue = 'welcome'
+    myvalue = 'loop'
     myresult = 10 + 20
     xyz = 'Python'
     return render_template('index2.html', myvalue=myvalue, myresult=myresult, course= xyz)
